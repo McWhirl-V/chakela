@@ -1,0 +1,96 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --chakela-blue: #2864e8;
+  --chakela-ink: #14233b;
+  --chakela-muted: #5d6d84;
+  --chakela-line: #dfe6f0;
+  --chakela-paper: #f7f9fc;
+}
+
+body {
+  background: var(--chakela-paper);
+  color: var(--chakela-ink);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.site-header,
+.site-footer {
+  background: #fff;
+  border-color: var(--chakela-line);
+}
+
+.site-title,
+.site-title:visited,
+.page-link {
+  color: var(--chakela-ink);
+}
+
+.page-content {
+  padding: 54px 0 72px;
+}
+
+.post,
+.home {
+  background: #fff;
+  border: 1px solid var(--chakela-line);
+  border-radius: 22px;
+  box-shadow: 0 16px 44px rgba(41, 70, 111, 0.06);
+  padding: clamp(24px, 5vw, 48px);
+}
+
+.post-title,
+h1,
+h2,
+h3 {
+  color: var(--chakela-ink);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  margin-top: 2.2em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--chakela-line);
+}
+
+p,
+li {
+  color: var(--chakela-muted);
+  line-height: 1.85;
+}
+
+a,
+a:visited {
+  color: var(--chakela-blue);
+}
+
+blockquote {
+  border-left-color: var(--chakela-blue);
+  background: #edf3ff;
+  border-radius: 0 14px 14px 0;
+  color: #31558f;
+  font-style: normal;
+  padding: 16px 20px;
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .page-content {
+    padding: 24px 0 48px;
+  }
+
+  .post,
+  .home {
+    border-radius: 16px;
+    padding: 22px 18px;
+  }
+}
