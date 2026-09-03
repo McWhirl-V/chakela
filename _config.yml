@@ -2,10 +2,11 @@ title: 查课啦
 description: 查课啦官方信息与支持中心
 lang: zh-CN
 theme: minima
+url: https://mcwhirl-v.github.io
+baseurl: /chakela
 permalink: pretty
 header_pages:
   - support.md
   - privacy.md
   - privacy-choices.md
   - terms.md
-
